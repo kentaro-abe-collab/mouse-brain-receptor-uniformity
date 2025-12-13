@@ -49,6 +49,10 @@ Outputs:
 - `region_by_gene_expression_percentage.csv`  
 - `region_receptor_subtype_ratio.csv`  
 - `Figure1_receptor_heatmap.png`
+Additional reference data:
+
+- `region_cell_counts.csv`  
+  Cell counts per brain region used to verify the total number of analyzed cells (~2.3 million), as reported in the Abstract.
 
 ---
 

@@ -1,6 +1,6 @@
-numpy
-pandas
-scanpy
-statsmodels
-matplotlib
-seaborn
+numpy==1.26.*
+pandas==2.1.*
+scanpy==1.9.*
+statsmodels==0.14.*
+matplotlib==3.8.*
+seaborn==0.13.*

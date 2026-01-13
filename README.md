@@ -110,7 +110,7 @@ Bootstrap configuration (default):
 
 All analyses were developed and executed under the following environment:
 
-- **Python**: 3.10
+- **Python**: 3.12
 - **NumPy**: 1.26.*
 - **Pandas**: 2.1.*
 - **Scanpy**: 1.9.*

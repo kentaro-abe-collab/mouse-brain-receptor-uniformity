@@ -111,12 +111,12 @@ Bootstrap configuration (default):
 All analyses were developed and executed under the following environment:
 
 - **Python**: 3.12
-- **NumPy**: 1.26.*
-- **Pandas**: 2.1.*
-- **Scanpy**: 1.9.*
-- **Statsmodels**: 0.14.*
-- **Matplotlib**: 3.8.*
-- **Seaborn**: 0.13.*
+- **NumPy**: 1.26
+- **Pandas**: 2.1
+- **Scanpy**: 1.9
+- **Statsmodels**: 0.14
+- **Matplotlib**: 3.8
+- **Seaborn**: 0.13
 
 This configuration ensures full reproducibility of the expressing-fraction calculations,
 regional aggregation, compositional analyses, and hierarchical bootstrap procedures

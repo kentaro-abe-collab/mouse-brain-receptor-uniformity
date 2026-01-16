@@ -1,10 +1,45 @@
 # Mouse Brain Receptor Uniformity Analysis
 
-This repository contains **all code, processed data tables, and figure-generation outputs** used in the manuscript:
+This repository contains **all code, processed data tables, and figure-generation outputs**
+used in the manuscript:
 
 > **Cross-regional uniformity of neurotransmitter receptor transcript detection across the adult mouse brain**
 
-The analysis is based on publicly available single-cell RNA-seq data from the **Allen Institute Adult Mouse Brain Cell Atlas (Cell Census v2023; WMB‑10Xv3)**.
+The analysis is based on publicly available single-cell RNA-seq data from the
+**Allen Institute Adult Mouse Brain Cell Atlas (Cell Census v2023; WMB-10Xv3)**.
+
+---
+
+## Overview
+
+**Cross-regional uniformity of neurotransmitter receptor transcript detection**  
+*A quantitative framework for cross-regional uniformity*
+
+This repository is a **methods-first, code-centric research artifact**.
+
+The primary contribution is a **fully reproducible quantitative framework** for evaluating
+cross-regional uniformity in **compositional molecular data**, with explicit uncertainty
+estimation.
+
+The accompanying manuscript (PDF) is provided as a **descriptive companion** to the
+executable analysis pipeline; the authoritative research output is the code itself.
+
+This repository provides a fully reproducible analysis pipeline for quantifying the degree of
+cross-regional uniformity in neurotransmitter receptor–related transcript detection across
+major macro-regions of the adult mouse brain.
+
+Although the motivating application is biological, the **core contribution is methodological**:
+a general framework for assessing *uniformity versus variation* in compositional data.
+
+Specifically, the analysis integrates:
+
+- **Compositional data analysis** (CLR transform, Aitchison geometry)
+- **Absolute percentage-point difference metrics** (U75, U95)
+- **Hierarchical bootstrap** for uncertainty quantification
+- **Explicit region–pair–level summary statistics**
+
+The framework is **not specific to particular genes or brain regions** and is extensible to
+other molecular systems, brain structures, and cross-species comparisons.
 
 ---
 
@@ -32,9 +67,13 @@ mouse-brain-receptor-uniformity/
 │   ├── Figure2A_aitchison_heatmap.png
 │   └── Figure2B_aitchison_hist.png
 │
+├── manuscript/               # Manuscript PDF (descriptive companion)
+│   └── cross_regional_uniformity_neurotransmitter_receptor_transcript_detection_mouse_brain.pdf
+│
 ├── requirements.txt          # Python dependencies
 ├── LICENSE                   # MIT License
 └── README.md                 # This document
+
 ```
 
 **Rule enforced**  
@@ -48,7 +87,7 @@ This structure matches:
 
 ---
 
-## 🧠 Overview of the Analysis
+## 🧠 Analytical Framework
 
 The pipeline quantifies **cross-regional similarity (uniformity)** of neurotransmitter receptor–related transcript detection across **11 non‑cerebellar brain macro‑regions**.
 
@@ -173,10 +212,10 @@ MIT License — free reuse with attribution.
 
 ## 📚 Citation
 
-If you use this code or data, please cite:
+If you use this code or data, please cite the Zenodo archive (canonical reference):
 
-> Mouse Brain Receptor Uniformity Analysis.  
-> GitHub repository: https://github.com/sotomitiouru-collab/mouse-brain-receptor-uniformity
+doi:10.5281/zenodo.18268080
 
-(Replace with DOI after Zenodo deposition.)
+GitHub repository:
+https://github.com/sotomitiouru-collab/mouse-brain-receptor-uniformity
 
